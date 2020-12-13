@@ -1,0 +1,17 @@
+button {
+    margin-top: 5px;
+    font-size:18px;
+    padding:5px;
+    width:220px;
+}
+div a {
+    text-decoration: none;
+    color:#666;
+}
+div a:hover {
+    text-decoration: underline;
+    color:#333;
+}
+div span {
+    font-size:24px;
+}

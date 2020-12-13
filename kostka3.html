@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kostka 3x3x3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	<link rel="stylesheet" href="./css/base.css">
+	<link id="pagestyle" rel="stylesheet" href="./css/large.css">
+	<link rel="stylesheet" href="./css/helper.css">
+	<script src="./js/script.js"></script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<nav>
+			<ul>
+				<li><a href="index.html">Start</a></li>
+				<li class="active"><a href="kostka3.html">Kostka x3</a></li>
+			</ul>
+		</nav>	
+		<h3>Układanie kostki 3x3x3 - białym kolorem na wierzchu</h3>
+		
+		<div style="width:220px;margin: 0px auto;">
+		<button onclick="moveTop('alg1');">1.Biały krzyż</button><br/>
+		<button onclick="moveTop('alg2');">2.Rogi górnej ściany</button><br/>
+		<button onclick="moveTop('alg3');">3.Drugi rząd</button><br/>
+		<button onclick="moveTop('alg4');">4.Rogi trzeciego rzędu</button><br/>
+		<button onclick="moveTop('alg5');">5.Dolna ściana</button><br/>			
+		</div>
+
+
+		<!-- 1 -->
+		<div id="alg1" class="tytul">Biały krzyż</div>
+		<video controls poster="img/kostka3_21/k1_krzyz.png">
+			<source src="video/kostka3_21/alg1_krzyz.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+		<div><span>&#9754</span><a href="#" onclick="return false;" onmousedown="moveDown('wrapper');"> Powrót</a></div>
+
+
+		<!-- 2 -->
+		<div id="alg2" class="tytul">Rogi górnej ściany</div>
+		<video controls poster="img/kostka3_21/k2_rogi_gornej_sciany.png">
+			<source src="video/kostka3_21/alg2_rogi_gornej_sciany.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+		<div><span>&#9754</span><a href="#" onclick="return false;" onmousedown="moveDown('wrapper');">Powrót</a></div>
+
+		<!-- 3 -->
+		<div id="alg3" class="tytul">Drugi rząd</div>
+		<video controls poster="img/kostka3_21/k3_drugi_poziom.png">
+			<source src="video/kostka3_21/alg3_drugi_poziom.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+		<div><span>&#9754</span><a href="#" onclick="return false;" onmousedown="moveDown('wrapper');">Powrót</a></div>
+
+		<!-- 4 -->
+		<div id="alg4" class="tytul">Rogi trzeciego rzędu</div>
+		<video controls poster="img/kostka3_21/k4_rogi_3go_poziomu.png">
+			<source src="video/kostka3_21/alg4_rogi_3go_poziomu.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+		<div><span>&#9754</span><a href="#" onclick="return false;" onmousedown="moveDown('wrapper');">Powrót</a></div>
+
+		<!-- 5 -->
+		<div id="alg5" class="tytul">Dolna ściana</div>
+		<video controls poster="img/kostka3_21/k5_dolna_sciana.png">
+			<source src="video/kostka3_21/alg5_dolna_sciana.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+		<div><span>&#9754</span><a href="#" onclick="return false;" onmousedown="moveDown('wrapper');">Powrót</a></div>
+
+		<div style="height:60px;"></div>
+
+		<footer>
+			Copyright by AS - 2018
+		</footer>		
+	</div>
+	<script src="./js/animation.js"></script>
+
+</body>
+</html>

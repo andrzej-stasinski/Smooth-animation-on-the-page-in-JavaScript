@@ -1,0 +1,68 @@
+
+#wrapper {
+	width: 90%;
+	padding:10px;
+}
+#wrapper nav ul li.active a {
+	background-color: #222;
+}
+#wrapper nav ul li {
+	width:100%;
+}
+#wrapper nav ul li:last-child {
+	margin-bottom: 20px;
+	
+}
+#wrapper nav ul li a {
+	width:100%;
+}
+#wrapper h3 {
+	clear:left;
+	font-size:80%;
+}
+.tytul {
+	margin-top:10px;
+	font-size:80%;
+	line-height: 20px;
+}
+.tytul span {
+	font-size:80%;
+}
+.opis {
+	font-size: 18px;
+}
+img.kostka {
+	width:180px;
+}
+video {
+	width:100%;
+}
+#iframe-container {
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
+}
+#iframe-container iframe {
+	border: 0;
+	height:100%;
+	width:100%;
+	position: absolute;
+	left: 0; top: 0;
+}
+footer {
+	display: block;
+	left:10px;
+	right:10px;
+	font-size: 12px;
+}
+.ver {
+	font-size: 12px;
+
+}
+
+
+
+
+
+
+

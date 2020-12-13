@@ -1,0 +1,28 @@
+#wrapper {
+	width: 800px;
+}
+#wrapper nav ul li.active a {
+	background-color: #666;
+}
+img.kostka {
+	width:330px;
+}
+video {
+	width: 800px;
+}
+iframe {
+	width: 800px;
+	height:450px;
+}
+footer {
+	width: 800px;
+
+}
+
+
+
+
+
+
+
+

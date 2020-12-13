@@ -1,0 +1,107 @@
+* {
+	margin:0;padding:0;
+}
+@font-face {
+	font-family: mojaCzcionka;
+	src: url('./font/hebanusj.ttf');
+}
+body {
+	font-family: mojaCzcionka, Arial, serif;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 640px;
+	/*
+	outline:1px solid red;
+	*/
+	background-color: #eee;
+	padding:10px;
+	min-height: 600px;
+	position: relative;
+	overflow: auto;
+}
+#wrapper nav {
+	margin-bottom: 10px;
+	/*
+	outline: 1px solid blue;
+	*/
+	background-color: #888;
+	height: 40px;
+}
+#wrapper nav ul {
+	list-style-type: none;
+}
+#wrapper nav ul li {
+	/*
+	outline: 1px solid red;
+	*/
+	float:left;
+	text-align: center;
+}
+#wrapper nav ul li a {
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 40px;
+	width:140px;
+	/*	
+	outline: 1px solid green;
+	*/
+	background-color: #777;
+}
+
+#wrapper nav ul li.active a {
+	color: yellow;
+	background-color: #444;
+}
+#wrapper nav ul li:hover a {
+	color: yellow;
+	background-color: #222;
+}
+
+#wrapper h3 {
+	clear:left;
+	margin:20px 0;
+}
+.tytul {
+	background-color: white;
+	line-height: 40px;
+	padding-left: 10px;
+	margin-top:20px;
+}
+.opis {
+	font-size: 20px;
+}
+img.kostka {
+	display:block;width:200px;margin:0 auto;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+footer {
+	background-color: #666;
+	text-align: center;
+	line-height: 50px;
+	
+	
+	position: absolute;
+	/**/
+	bottom: 10px;
+	width: 640px;
+
+	margin-top:20px;
+	color: white;
+}
+.ver {
+	position: absolute;
+	width:60px;
+	right:10px;
+	top:0;
+
+}
+
+
+
+
+
+
+
