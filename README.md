@@ -7,7 +7,7 @@
 * RWD - yes, page is responsive
 * use an image as a background image for video file
 
-#### Education
+#### Education value
 * the educational part presents using own video
 * page presents rubik's cube 3x3x3 - the way of arranging rubik's cube
 
